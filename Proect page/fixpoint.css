@@ -1,0 +1,373 @@
+* {
+  font-family: 'Poppins', 'Lato', sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(image.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.fixpoint-image {
+  height: 100px;
+  width: 100px;
+}
+
+.logo-text {
+  position: relative;
+  right: 26px;
+  top: 5px;
+}
+
+.logo-fix {
+  color: #fff;
+  font-size: 26px;
+}
+
+.logo-point {
+  color: #16ff16;
+  font-size: 26px;
+  position: relative;
+  right: 4px;
+}
+
+.navbar {
+  background: transparent !important;
+}
+
+.nav-link {
+  transition: none !important;
+}
+
+.fixpoint-navbar-links {
+  color: #fff !important;
+  margin-left: 28px;
+  font-size: 21px;
+}
+
+.fixpoint-navbar-links a {
+  color: #fff !important;
+}
+
+.fixpoint-navbar-links a:hover {
+  background-color: #fff;
+  color: #000 !important;
+  border-radius: 5px;
+}
+
+.boost-text {
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.boost-button {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #16ff16;
+  border: 1px solid #16ff16;
+  margin-bottom: 3rem;
+}
+
+.boost-button:hover {
+  background-color: #0add0a;
+  border: 1px solid #0add0a;
+}
+
+.ev-owner {
+  color: #fff;
+  margin-top: 2rem;
+  text-align: center !important;
+}
+
+.ev-owner-heading {
+  font-size: 30px;
+  text-align: center !important;
+}
+
+.ev-owner-paragraph {
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #000 !important;
+}
+
+.footer-section h4 {
+  color: #16ff16;
+}
+
+.footer-section ul {
+  list-style-type: disc;
+  color: #fff;
+  font-weight: 700;
+  padding-left: 15px;
+}
+
+.footer-section ul li {
+  margin-bottom: 0px !important;
+}
+
+.footer-section ul a {
+  color: #fff !important;
+}
+
+.footer-section-button {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  width: 75%;
+}
+
+.btn-green {
+  background-color: #16ff16;
+  border: 1px solid #16ff16;
+}
+
+.btn-green:hover {
+  background-color: #0add0a;
+  border: 1px solid #0add0a;
+}
+
+.copyright {
+  color: #fff;
+}
+
+.follow-us {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.follow-us span {
+  color: #fff;
+}
+
+.follow-us img {
+  width: 25px;
+  height: 25px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.footer-button-section {
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+section.main {
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(65 67 73 / 31%) 50%,
+    white 31%
+  );
+  min-height: 100vh;
+  padding: 5rem;
+}
+
+.service-heading {
+  color: #856262;
+  font-size: 3.8rem;
+  font-weight: bold;
+}
+
+.total-vehicle-service h2 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.total-vehicle-dropdown img {
+  width: 180px;
+  display: block;
+}
+
+.total-vehicle-dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.total-service-content .heading h1 {
+  font-weight: bold;
+  text-align: right;
+  margin-right: 5px;
+  font-size: 2.2rem;
+}
+.total-service-content .heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  /* align-content: flex-start; */
+  align-items: center;
+}
+
+.green-box {
+  width: 10px;
+  height: 55px;
+  background-color: #16ff16;
+}
+
+.total-service-content p {
+  text-align: right;
+  font-size: 1rem;
+}
+
+.services-completed h1 {
+  border-left: 12px solid #16ff16;
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+
+.pie-chart-image {
+  width: 100%;
+}
+
+.service-we-have ul {
+  list-style-type: disc;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.pie-chart-data h4 {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  padding: 10px 0;
+}
+
+.pie-chart-data span {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding-top: 4px;
+}
+
+.service-percent {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.percent {
+  height: 0.4rem;
+}
+
+.percent-green {
+  width: 67%;
+  background-color: rgb(106, 214, 106);
+}
+
+.percent-neon {
+  width: 88%;
+  background-color: rgb(55, 203, 156);
+}
+
+.percent-black {
+  width: 73%;
+  background-color: rgb(7, 73, 7);
+}
+
+.percent-orange {
+  width: 54%;
+  background-color: rgb(198, 88, 86);
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-nav {
+    margin-right: 100px;
+  }
+
+  .header-ev-owner {
+    margin-top: 8rem !important;
+  }
+
+  .ev-owner {
+    padding-right: 100px;
+  }
+
+  .ev-owner-heading {
+    text-align: right !important;
+  }
+
+  .ev-owner-paragraph {
+    text-align: right !important;
+  }
+
+  .footer-logo-section {
+    padding-right: 20rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .total-vehicle-dropdown img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .service-we-have {
+    text-align: center;
+  }
+
+  .service-we-have ul {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .total-service-content {
+    margin-top: 25px;
+  }
+
+  .footer-logo-section {
+    min-width: 100vw;
+    justify-content: center;
+  }
+
+  .footer-section {
+    margin-top: 15px;
+  }
+
+  .footer-section-button {
+    width: 75%;
+  }
+
+  .footer-button-section {
+    height: 100%;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section.main {
+    padding: 2rem;
+  }
+
+  .boost-text {
+    font-size: 2.2rem;
+  }
+
+  .services-completed h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-section {
+    min-width: 33.33vw;
+    border-bottom: none !important;
+  }
+
+  .footer-button-section {
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-evenly;
+  }
+
+  .footer-section-button {
+    width: 40%;
+  }
+}
